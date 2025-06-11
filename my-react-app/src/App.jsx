@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./App.css";
+import Title from "./components/Title";
+import Description from "./components/Description";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +15,7 @@ function App() {
         unde dicta nam voluptates aut! Magnam laudantium voluptates maiores iure
         beatae.
       </p>
+      <Title />
     </div>
   );
 }
