@@ -4,12 +4,9 @@ import Description from "./Description";
 const Content = (props) => {
   return (
     <div>
-      <h1>
-        <Title name={props.name} />
-      </h1>
-      <p>
-        <Description text={props.text} />
-      </p>
+      <Title name={props.name} />
+
+      <Description text={props.text} />
     </div>
   );
 };
